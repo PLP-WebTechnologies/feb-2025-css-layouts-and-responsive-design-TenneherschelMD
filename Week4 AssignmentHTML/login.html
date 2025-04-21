@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 4 Assignment</title>
+        <link rel="stylesheet" href="style.css">
+
+
+
+    </head>
+
+                <!--# This is inline -- <body style="background-color:cyan"> -->
+    
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="products.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <a href="login.html">login</a>
+                </li>
+            </ul>
+        </nav>
+
+    <main>
+        
+            <!--This is inline#<h1 style="color:red">This is Week 3's Assignment Objectives</h1>-->
+        <h1>LOGIN: REGISTRATION FORM</h1>
+        
+        <!--margins-->
+
+        <hr>
+        <h1>FILL THE FORM</h1>
+        <hr>
+        
+        
+
+
+        <form action="home_page.php" method="POST">
+
+            <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="alma" required>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="mater" required>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="password">pass key:</label>
+            <input type="password" id="password" name="password" maxlength="20" required>
+            </div>
+    
+            <br>
+
+            <div>
+            <label for="address">home address:</label>
+            <input type="text" id="address" name="address" placeholder="P O BOX 0000 NAIROBI" required>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="mobile">mobile number:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="0712345678" required>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="email">email address:</label>
+            <input type="email" id="email" name="email" placeholder="arumkoga@yahoo.com" required>
+            </div>
+    
+            <br>
+
+            <div>
+            <label for="appdate">date of scheduled appointment:</label>
+            <input type="date" id="appdate" name="appdate" placeholder="DD/MM/YYY" required>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="quantity">number of scheduled appointments:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="5" required>
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="title">title:</label>
+
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." name="title" value="Mr.">
+
+                <label for="Ms.">Ms.</label>
+                <input type="radio" id="Ms." name="title" value="Ms.">
+
+                <label for="Dr.">Dr.</label>
+                <input type="radio" id="Dr." name="title" value="Dr.">
+
+                <label for="Sr.">Sr.</label>
+                <input type="radio" id="Sr." name="title" value="Sr.">
+
+            </div>
+
+            <br>
+
+            <div>
+                <label for="payment">payment:</label>
+                <select id="payment" name="payment">
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Mpesa">Mpesa</option>
+
+                </select>
+
+
+            </div>
+
+            <br>
+
+            <div>
+                <label for="subscribe">subscribe:</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+
+
+
+        </form>
+
+    </body>
+
+</html>
